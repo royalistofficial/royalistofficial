@@ -1,7 +1,7 @@
 <h1 align="center">Привет, я Михаил 👋</h1>
 <p align="center"><b>Junior Python-разработчик · Data / ML</b></p>
 <p align="center">
-  Сильная математическая база (СПбПУ, прикладная математика и информатика).<br>
+  Бакалавр прикладной математики и информатики, магистрант по информационной безопасности (СПбПУ).<br>
   В фокусе — Python, SQL, машинное обучение и цифровая обработка сигналов.
 </p>
 
@@ -18,8 +18,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
@@ -27,34 +27,55 @@
 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
 ![DSP](https://img.shields.io/badge/Цифровая%20обработка%20сигналов-5A189A?style=flat)
 
-**Инструменты**
+**Бэкенд и инструменты**
 
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
+![GoogleTest](https://img.shields.io/badge/GoogleTest-4285F4?style=flat&logo=google&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-> Также: математическое моделирование и статистика, ООП, алгоритмы и структуры данных, проектирование баз данных, основы веб-разработки (HTML/CSS/JS).
-> Docker, веб-фреймворки (Flask / Django / FastAPI) и Java — на базовом уровне.
+**AI-инструменты**
+
+![LLM](https://img.shields.io/badge/LLM--ассистенты-ChatGPT%20·%20Claude%20·%20Copilot-412991?style=flat)
+![Prompt engineering](https://img.shields.io/badge/Prompt%20engineering-6A1B9A?style=flat)
+
+> Также: математическое моделирование и статистика, ООП, алгоритмы и структуры данных, проектирование баз данных, основы веб-разработки (HTML/CSS/JS), информационная безопасность.
+> Docker, Flask / FastAPI и Java — на базовом уровне.
 
 ---
 
 ## 🚀 Проекты
 
 ### 🗄️ [Склад пищевого производства](https://github.com/royalistofficial/course-work-on-databases)
-Приложение для управления складом пищевого производства с проектированием реляционной базы данных: учёт сырья, полуфабрикатов и готовой продукции, приём и обработка заказов, автоматический запуск производственных цехов, ежедневное списание просроченной продукции и набор аналитических отчётов.
-<br>**Стек:** `Python` · `SQL` · `проектирование БД`
+Веб-приложение для управления складом пищевого производства (курсовая по базам данных). Спроектирована реляционная схема на 10+ сущностей: склады с ограничением ёмкости, продукция со сроками годности, рецепты, цеха с предельной производительностью, поставщики и цены, заказы клиентов. Реализованы CRUD-формы с валидацией, приём и частичное выполнение заказов, запуск цехов с автоматическим поступлением продукции, ежедневное списание просроченного и отчёты по списаниям, продажам и финансам.
+<br>**Стек:** `Python` · `Django` · `Django ORM` · `SQLite` · `HTML/CSS`
+
+### 🧠 [Python: от основ до машинного обучения](https://github.com/royalistofficial/CK24-Python-Basics-to-ML)
+Задачи курса ЦК24 — алгоритмы реализованы с нуля, без готовых библиотек:
+- **сжатие весов языковой модели** — квантизация, кодирование Хаффмана, бит-паккинг, бинарная сериализация и обратное восстановление матрицы (без NumPy);
+- **парное выравнивание последовательностей** — алгоритм Нидлмана–Вунша и построение матрицы BLOSUM;
+- **символьное дифференцирование** — иерархия классов выражений с вычислением и взятием производных;
+- **пайплайн задач** — декоратор шагов, граф зависимостей и его визуализация через Graphviz.
+
+<br>**Стек:** `Python` · `Jupyter` · `NumPy` · `SciPy` · `Matplotlib` · `ООП`
+
+### 🌳 [Алгоритмы и структуры данных на C](https://github.com/royalistofficial/algds2024)
+Красно-чёрное дерево с вставкой и удалением без ссылок на родителя; задача о пути минимального штрафа в матрице методом динамического программирования. Сборка через CMake, модульные тесты на GoogleTest.
+<br>**Стек:** `C` · `C++` · `CMake` · `GoogleTest`
 
 ### 🗜️ [Huffman Coding](https://github.com/royalistofficial/HuffmanCoding)
-Реализация алгоритма сжатия данных Хаффмана: построение дерева кодирования и кодирование/декодирование сообщений.
+Консольная утилита для сжатия и распаковки файлов алгоритмом Хаффмана: построение дерева кодов, запись закодированных данных в бинарный файл, параметры командной строки (`-i`, `-o`, `-d`).
 <br>**Стек:** `Java` · `алгоритмы и структуры данных`
-
-### 🎮 [Arkanoid](https://github.com/royalistofficial/Arkanoid)
-Классическая аркадная игра на принципах ООП: игровая логика, обработка столкновений, управление состоянием игры.
-<br>**Стек:** `Python` · `ООП`
 
 ---
 
@@ -65,7 +86,8 @@
 
 ## 🎓 Образование
 
-**СПбПУ** — Прикладная математика и информатика, бакалавр · Физико-механический институт · 2026
+**СПбПУ** — Информационная безопасность, магистратура (обучаюсь) · Институт компьютерных наук и кибербезопасности · 2026 — 2028
+<br>**СПбПУ** — Прикладная математика и информатика, бакалавр · Физико-механический институт · 2022 — 2026
 
 ---
 
