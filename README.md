@@ -18,30 +18,23 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![C++](https://img.shields.io/badge/C/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 
 **Данные и ML**
 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
-![DSP](https://img.shields.io/badge/Цифровая%20обработка%20сигналов-5A189A?style=flat)
 
 **Бэкенд и инструменты**
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
-![GoogleTest](https://img.shields.io/badge/GoogleTest-4285F4?style=flat&logo=google&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 **AI-инструменты**
@@ -49,8 +42,7 @@
 ![LLM](https://img.shields.io/badge/LLM--ассистенты-ChatGPT%20·%20Claude%20·%20Copilot-412991?style=flat)
 ![Prompt engineering](https://img.shields.io/badge/Prompt%20engineering-6A1B9A?style=flat)
 
-> Также: математическое моделирование и статистика, ООП, алгоритмы и структуры данных, проектирование баз данных, основы веб-разработки (HTML/CSS/JS), информационная безопасность.
-> Docker, Flask / FastAPI и Java — на базовом уровне.
+> Также: статистика, алгоритмы и структуры данных, проектирование БД, информационная безопасность.
 
 ---
 
